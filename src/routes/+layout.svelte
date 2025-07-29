@@ -13,7 +13,7 @@
   import NavCMLX from "$lib/nav/NavCMLX.svelte";
   import NavCMLXItem from "$lib/nav/NavCMLXItem.svelte";
   import { styling } from "./themeStore";
-  import Button from "$lib/button/Button.svelte";
+  import Button from "$lib/buttons/Button.svelte";
   import "../app.css";
 
   let { children }: { children: Snippet } = $props();
